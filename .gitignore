@@ -1,0 +1,16 @@
+# Ignore node_modules (for backend & frontend)
+node_modules/
+frontend/node_modules
+
+
+# Ignore package manager files
+package-lock.json
+frontend/package-local.json
+
+# Ignore build and coverage files
+/frontend/build/
+/build/
+
+
+# Ignore environment files (secrets should not be pushed)
+.env
