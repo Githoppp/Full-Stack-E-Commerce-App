@@ -5,12 +5,15 @@ frontend/node_modules
 
 # Ignore package manager files
 package-lock.json
-frontend/package-local.json
+frontend/package-lock.json
 
 # Ignore build and coverage files
-/frontend/build/
-/build/
+frontend/build/
+build/
 
 
 # Ignore environment files (secrets should not be pushed)
 .env
+
+# Ignore potential submodule issues
+.git/modules/frontend
